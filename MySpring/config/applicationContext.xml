@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans >
+    <bean id="A" class="com.iCode.entity.A">
+    	<property name="name" value="煞笔"></property>
+    </bean>
+    <bean id="B" class="com.iCode.entity.B">
+    	<property name="a" rel="A"></property>
+    </bean>
+    
+      <bean id="C" class="com.iCode.entity.C">
+    	<property name="b" rel="B"></property>
+    </bean>
+</beans>
